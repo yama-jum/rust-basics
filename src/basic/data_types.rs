@@ -1,5 +1,3 @@
-use core::panic;
-
 pub fn main() {
   /*
    * Scalar Types
@@ -78,5 +76,4 @@ pub fn main() {
   println!("array_c: {:?}", array_c);
   println!("first_element: {}", first_element);
   // println!("array_a[10]: {}", array_a[10]);  // panic!!: index out of bounds: the len is 5 but the index is 10
-  
 }
