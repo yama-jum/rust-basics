@@ -2,8 +2,8 @@ mod basic;
 mod ownership;
 
 fn main() {
-  println!("# basic");
+  println!("===Basic===");
   basic::main();
-  println!("# ownership");
+  println!("===Ownership===");
   ownership::main();
 }
