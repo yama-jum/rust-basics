@@ -3,10 +3,10 @@ mod functions;
 mod variables;
 
 pub fn main() {
-  println!("==variables==");
+  println!("## variables");
   variables::main();
-  println!("==data_types==");
+  println!("## data_types");
   data_types::main();
-  println!("==functions==");
+  println!("## functions");
   functions::main()
 }
