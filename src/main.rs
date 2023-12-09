@@ -1,5 +1,9 @@
 mod basic;
+mod ownership;
 
 fn main() {
-  basic::main()
+  println!("# basic");
+  basic::main();
+  println!("# ownership");
+  ownership::main();
 }
